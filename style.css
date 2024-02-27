@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0a7c4;
+    background-image: url(./bas-glaap-DEQS0GFk4AM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ 
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 55px;
+    background-color: #c28c9e52;
+    border-radius: 8px;
+    box-shadow: 0 0px 5px rgb(7, 0, 2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #686767ad;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+}
+
+button:active {
+    /* background-color: #a80b62; */
+    outline: rgb(112, 50, 97)  inset;
+}
+
+#result {
+    text-align: center;
+    font-size: 30px;
+     
+}
